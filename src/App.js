@@ -6,7 +6,7 @@ function App() {
     <>
       <Navbar category1={"Inicio"} category2={"Tienda"} category3={"Nosotros"}/>
 
-      <Main greeting={"Bienvenidos a mi landing con React.js"}/>
+      <Main greeting={"Bienvenidos a mi landing con React.js"}/>      
 
     </>
   );
