@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Main({greeting}) {
+export default function ItemListContainer({greeting}) {
   return (
     <main className='main'>
       <div className="div-titulo-main">
