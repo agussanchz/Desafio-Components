@@ -15,6 +15,7 @@ export default function ItemCount({stock}) {
       }
     }
 
+    
     return (
         <div className='div-parrafo-main'>
             <p>Contador</p>
