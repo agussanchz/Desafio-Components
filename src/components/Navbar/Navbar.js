@@ -1,5 +1,5 @@
 import React from 'react'
-import CartIcon from '../CartIcon/CartIcon'
+import CartWidget from '../CartWidget/CartWidget'
 import logo from '../Utils/Img/icono.jpg'
 
 export default function Navbar({category1, category2, category3}) {
@@ -15,7 +15,7 @@ export default function Navbar({category1, category2, category3}) {
                 <li className='nav-li'> <a href="../../../public/index.html">{category3}</a> </li>
             </ul>
         </nav>
-        <CartIcon/>
+        <CartWidget/>
        
     </header>
   )
