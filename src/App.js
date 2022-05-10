@@ -1,3 +1,4 @@
+import ItemCount from "./components/ItemCount/ItemCount";
 import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -8,6 +9,7 @@ function App() {
 
       <Main greeting={"Bienvenidos a mi landing con React.js"}/>      
 
+      <ItemCount stock={0}/>
     </>
   );
 }
