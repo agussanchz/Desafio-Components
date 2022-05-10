@@ -1,10 +1,13 @@
 import React from 'react'
 
 export default function ItemCount({stock}) {
-    const [count, setCount] = React.useState (stock)
+    const [count, setCount] = React.useState (0)
 
     const handleSuma = ()=> {
+      if (count < stock) {
         setCount (count + 1)
+      }
+        
     }
     const handleRest = () => {
       if (count > 0){

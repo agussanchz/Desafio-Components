@@ -9,7 +9,7 @@ function App() {
 
       <ItemListContainer greeting={"Bienvenidos a mi landing con React.js"}/>      
 
-      <ItemCount stock={0}/>
+      <ItemCount stock={10}/>
     </>
   );
 }
